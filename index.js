@@ -29,7 +29,7 @@ const products = [
     ratings: 5,
     price: "$24.99",
     button: "add to card",
-    img:"https://i.ibb.co/k6wzMh5X/Image-1.png"
+    img:"https://i.ibb.co/7JbpvRZm/Image-1.png"
   },
   {
     id:3,
@@ -53,7 +53,7 @@ const products = [
     ratings: 4,
     price: "$14.99",
     button:"add to card",
-    img:"https://i.ibb.co/C5thBXDB/pexels-photo-208541.webp"
+    img:"https://i.ibb.co/5t4BM6Q/pexels-photo-208541.webp"
   },
   {
     id:6,
@@ -85,7 +85,7 @@ const products = [
     ratings: 5,
     price: "$50",
     button:"add to card",
-    img:"https://i.ibb.co/kVNJGs0n/thermometer-headache-pain-pills-139398.webp"
+    img:"https://i.ibb.co/V06NsjjT/thermometer-headache-pain-pills-139398.webp"
   }
 ];
 
