@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 const products = [
   {
     id:1,
-    name: "Health Tablets – Energy Boost",
+    name: "Health Tablets Energy Boost",
     ratings: 4.5,
     price: "$22.9",
     button: "add to card",
@@ -86,12 +86,47 @@ const products = [
     price: "$50",
     button:"add to card",
     img:"https://i.ibb.co/V06NsjjT/thermometer-headache-pain-pills-139398.webp"
+  },
+   {
+    id:10,
+    name: "Basic Wellness Supplement",
+    ratings: 4,
+    price: "$19.99",
+    button: "add to card",
+    img:"https://i.ibb.co/wHCwTmQ/pexels-photo-3683074.webp"
   }
 ];
+
+const team=[
+  {
+    img:"https://i.ibb.co/60bRftnY/team1.png",
+     name: "Dr. Nadine Al Mansouri",
+     task:"Medical Director"
+  },
+  {
+    img:"https://i.ibb.co/KpQ24G5Y/team2.png",
+     name: "Dr. Karim El Sayed",
+     task:"Clinical Consultant"
+  },
+  {
+    img:"https://i.ibb.co/sdq91JLC/team3.png",
+     name: "Dr. Lara Haddad",
+     task:"Specialist in Functional & Preventative Medicine"
+  },
+  {
+    img:"https://i.ibb.co/fVz12K1N/team4.png",
+     name: "Nour Al Rawi",
+     task:"Clinical Research Coordinator"
+  },
+]
 
 app.get('/medicine',(req,res)=>{
     res.send(products)
 
+})
+
+app.get('/team',(req,res)=>{
+  res.send(team)
 })
 
 app.listen(port,()=>{
